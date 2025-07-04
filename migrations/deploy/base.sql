@@ -1,7 +1,6 @@
--- Deploy jtbike:creneau to pg
+-- Deploy jtbike:base to pg
 
 BEGIN;
-
 
 CREATE TABLE "role"(
   "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -40,6 +39,5 @@ CREATE TABLE "reservation"(
   "created_at" TIMESTAMPTZ NOT NULL DEFAULT now(),
   "updated_at" TIMESTAMPTZ
 );
-
 
 COMMIT;

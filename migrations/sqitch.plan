@@ -1,4 +1,4 @@
 %syntax-version=1.0.0
 %project=jtbike
 
-creneau 2025-07-02T15:24:55Z Terrier Anais <terrieranais@laposte.net> # description de la migration
+base 2025-07-04T14:59:31Z Terrier Anais <terrieranais@laposte.net> # Script de création des tables
